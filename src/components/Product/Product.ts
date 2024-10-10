@@ -8,7 +8,7 @@ export enum Attribute {
     "rating" = "rating",
 }
 
-class Character extends HTMLElement {
+class Product extends HTMLElement {
 
     buttonAddShoppingCart?: number;
     image?: string;
@@ -86,5 +86,5 @@ class Character extends HTMLElement {
     }
 }
 
-customElements.define("character-component", Character);
-export default Character;
+customElements.define("product-component", Product);
+export default Product;
